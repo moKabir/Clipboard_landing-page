@@ -1,0 +1,200 @@
+
+body{
+    font-family:"Bai Jamjuree";
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+/* title */
+#head{
+  text-align: center;
+  padding:7%;
+  background-image: url(../images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+}
+
+.container-fluid{
+  padding: 0;
+}
+.logo{
+  width: 132px;
+  height: 132px;
+  border-radius: 100%;
+  margin-bottom: 5%;
+}
+ .head-p{
+   padding: 0 23%;
+
+ }
+h1,h2,h3,h4{
+  font-family: "Bai Jamjuree";
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+.head-h{
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+.btn-mac{
+      float: right;
+      background-color: hsl(171, 66%, 44%);
+      border-radius: 45px;
+      padding: 10px 25px;
+
+      color: #fff;
+}
+.btn-mac:hover{
+    box-shadow: 0px 8px 15px  hsl(171, 66%, 44% , 0.6);
+}
+
+.btn-ios{
+        background-color: hsl(233, 100%, 69%);
+        float:left;
+        border-radius: 45px;
+        padding: 10px 25px;
+
+        color: #fff;
+}
+.btn-ios:hover{
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+}
+#snippets{
+          text-align: center;
+          padding: 5% 24%;
+          line-height: 1.7;
+
+}
+.feature{
+  padding: 5% 10%;
+
+}
+.img-feature{
+  position: relative;
+  right: 50px;
+
+}
+#access{
+  margin: 7% 20%;
+  text-align: center;
+
+}
+.img-devices{
+
+
+}
+#work-flow{
+  text-align:center;
+  padding: 7% 5%;
+  line-height: 2;
+}
+.workflow{
+      padding: 25px 20px;
+}
+.icon{
+  padding-bottom: 30px;
+}
+#press{
+  text-align: center;
+  padding: 10% 10%;
+}
+.press{
+  padding: 0 3%;
+}
+#download{
+  text-align: center;
+  padding: 5% 20%;
+}
+
+#footer{
+    padding: 40px 0;
+  background-color: #f7f7f7;
+}
+.footer-icon{
+  height: 70px;
+}
+.footer-links{
+  padding: 15px 3px;
+}
+.social-links{
+  padding: 15px 15px;
+}
+a {
+  text-decoration: none; !important;
+  color:hsl(210, 10%, 33%);
+}
+a:hover{
+  text-decoration:none;
+  color:  hsl(171, 66%, 44%);
+}
+  .footer-fa{
+    padding: 0 7px;
+
+  }
+  footer{
+      background-color: #f7f7f7;
+  }
+
+/* smaller devices */
+@media (max-width:1128px){
+
+  /* title */
+
+  #head{
+    padding: 0;
+    background-image: url(../images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+  }
+
+  .logo{
+    margin: 7% 0;
+    width: 70px;
+    height: 70px;
+  }
+  .head-p{
+    padding: 0;
+    margin: 3% 2%;
+}
+.btn-ios,.btn-mac{
+      float: none;
+      margin: 5%;
+      padding: 10px 40px;
+}
+#snippets{
+  padding: 5% 3%;
+}
+.snip-h{
+      margin: 25% 0 5% 0;
+
+}
+.feature{
+  text-align:center;
+}
+.img-feature{
+  position: static;
+      margin: 5%;
+      max-width: 90%;
+}
+#access{
+  padding: 5% 3%;
+  margin: 0;
+}
+.img-devices{
+  margin: 5%;
+  max-width: 100%;
+}
+.press{
+  padding: 10% 3%;
+}
+#download{
+  padding: 5% 7%;
+}
+#footer{
+  text-align: center;
+}
+.footer-icon{
+  padding: 15px 0;
+}
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: #ff4c68; }
